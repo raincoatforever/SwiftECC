@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files = 'Sources/**/*.swift'
 
-  spec.dependency 'ASN1', :git => 'https://github.com/raincoatforever/ASN1.git', :branch => 'main'
-  spec.dependency 'BigInt', :git => 'https://github.com/raincoatforever/BigInt.git', :branch => 'main'
-  spec.dependency 'Digest', :git => 'https://github.com/raincoatforever/Digest.git', :branch => 'main'
+  spec.dependency 'ASN1'
+  spec.dependency 'BigInt'
+  spec.dependency 'Digest'
 end
